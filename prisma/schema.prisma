@@ -19,4 +19,4 @@ model Trip {
   created_at   DateTime @default(now())
 
   @@map("trips")
-}
+} 
