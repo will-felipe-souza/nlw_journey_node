@@ -41,7 +41,7 @@ model Participant {
 model Activity {
   id          String @id @default(uuid())
 
-  titulo      String
+  title       String
   occurs_at   DateTime
 
   trip_id     String
